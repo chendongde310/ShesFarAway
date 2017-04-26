@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">遥远的他</string>
+    <string name="app_name">NPC</string>
+    <string name="title_activity_home">事件管理</string>
 </resources>

@@ -21,7 +21,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:23.4.0'
     compile files('libs/avoscloud-push-v3.16.4.jar')
     compile files('libs/avoscloud-sdk-v3.16.4.jar')
     compile files('libs/avoscloud-statistics-v3.16.4.jar')
@@ -31,5 +30,15 @@ dependencies {
     compile files('libs/okio-1.6.0-leancloud.jar')
     compile files('libs/protobuf-java-2.6.1.jar')
     compile files('libs/VoiceRecognition-2.1.20.jar')
+    //文字效果
+    //圆形图片
+    compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.orhanobut:logger:1.15'
+    compile 'com.hanks:htextview-base:0.1.1'
+    compile 'com.hanks:htextview-scale:0.1.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:cardview-v7:23.4.0'
+    compile 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.14'
+
 }
